@@ -1,29 +1,38 @@
-# api-integrations
-API automation samples including Postman collections, Python-based REST integrations, and scripts to streamline telecom number management and reporting.
-
 # 🔁 API Integrations
+
+This repository includes API-first automation projects using **Postman** and **Python**. These workflows are designed to streamline telecom operations — including number porting, monitoring, and disaster recovery trigger automation.
+
+---
 
 ## ✨ Overview
 
-This repository includes API-first solutions using **Postman** and **Python**. Projects are focused on automating telecom workflows like number porting, number reporting, and DR failover triggers.
+The projects here simulate real-world telecom API use cases using REST protocols, authentication flows, and dynamic payloads. They’re built to reflect scalable, testable workflows that can be integrated into enterprise service delivery platforms.
 
 ---
 
-## 🔧 Contents
+## 📂 Contents
 
-- REST API Integration with Number Management System
-- Postman Collections & Environments
-- Python Scripts for API Automation
-- Use Case Briefs for Telecom APIs
-
----
-
-## 🧠 Technologies
-
-`Postman` | `Python` | `REST APIs` | `JSON` | `OAuth2`
+- 📬 **Telecom Number Porting APIs** – Simulated failover/RespOrg use cases  
+- 📮 **Postman Collections & Environments** – Modular testing environments  
+- 🐍 **Python Scripts** – Auth, GET/POST, and automation templates using `requests`  
+- 📄 **Use Case Docs** – Short briefs describing the business context for each API workflow (coming soon)
 
 ---
 
-## 📌 Status
+## 🧰 Technologies Used
 
-🟡 In Progress – Functional API workflows being documented
+`Postman` • `Python` • `REST APIs` • `JSON` • `OAuth 2.0` • `Mock Servers` • `Newman CLI`
+
+---
+
+## 🚧 Status
+
+🟡 Actively in development  
+✅ Initial Postman collection completed  
+🔜 Python auth + automation scripts (in progress)  
+🔜 Use case documentation to be added
+
+---
+
+> All examples are being designed to reflect reusable, secure, and scalable API workflows that support voice service automation.
+
