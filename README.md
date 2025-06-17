@@ -42,19 +42,18 @@ This project explores the **rise of mental health challenges in the state of Mas
 mental-health-insights/
 ├── README.md
 ├── data/
-│ ├── raw/
-│ └── cleaned/
+│ ├── raw/ # Raw files (CSV, JSON, etc.)
+│ └── cleaned/ # Pre-processed or filtered data
 ├── scripts/
-│ ├── fetch_data.py
-│ ├── summarize_trends.py
-│ └── alert_trigger.py
+│ ├── fetch_data.py # Grabs latest mental health data from API
+│ ├── summarize_trends.py # Extracts trends from the dataset
+│ └── alert_trigger.py # Sends weekly summary (Slack/email)
 ├── postman/
 │ └── mass-public-health-api.postman_collection.json
 ├── visuals/
-│ └── screenshots/
+│ └── screenshots/ # Static charts or dashboard snippets
 ├── dashboard/
-│ └── MA-MentalHealth.pbix
-
+│ └── MA-MentalHealth.pbix # Power BI dashboard file (optional)
 
 ---
 
