@@ -1,38 +1,61 @@
-# 🔁 API Integrations
+# 🧠 Mental Health Insights Dashboard – Massachusetts
 
-This repository includes API-first automation projects using **Postman** and **Python**. These workflows are designed to streamline telecom operations — including number porting, monitoring, and disaster recovery trigger automation.
-
----
-
-## ✨ Overview
-
-The projects here simulate real-world telecom API use cases using REST protocols, authentication flows, and dynamic payloads. They’re built to reflect scalable, testable workflows that can be integrated into enterprise service delivery platforms.
+This project explores the **rise of mental health challenges in the state of Massachusetts** using public data sources and API automation. It aims to analyze trends in depression, suicide rates, behavioral health ER visits, and therapy access gaps — with a focus on delivering actionable insights for healthcare organizations, community leaders, and policy makers.
 
 ---
 
-## 📂 Contents
+## 📌 Project Objectives
 
-- 📬 **Telecom Number Porting APIs** – Simulated failover/RespOrg use cases  
-- 📮 **Postman Collections & Environments** – Modular testing environments  
-- 🐍 **Python Scripts** – Auth, GET/POST, and automation templates using `requests`  
-- 📄 **Use Case Docs** – Short briefs describing the business context for each API workflow (coming soon)
-
----
-
-## 🧰 Technologies Used
-
-`Postman` • `Python` • `REST APIs` • `JSON` • `OAuth 2.0` • `Mock Servers` • `Newman CLI`
+- Pull mental health data from public health APIs (CDC, Mass.gov, SAMHSA)
+- Track trends over time: suicide rates, ER visits, behavioral diagnoses
+- Visualize insights via Power BI or Python dashboards
+- Create a weekly data pull and alert automation process
+- Provide healthcare stakeholders with digestible summaries
 
 ---
 
-## 🚧 Status
+## 🧰 Tools & Technologies
 
-🟡 Actively in development  
-✅ Initial Postman collection completed  
-🔜 Python auth + automation scripts (in progress)  
-🔜 Use case documentation to be added
+| Tool | Purpose |
+|------|---------|
+| `Python` | API data fetch, transformation, alert scripts |
+| `Postman` | API testing and endpoint documentation |
+| `Pandas` | Data cleaning and aggregation |
+| `Matplotlib` / `Seaborn` | Exploratory visualizations |
+| `Power BI` | Final interactive dashboard (optional) |
+| `Mass.gov`, `CDC`, `SAMHSA APIs` | Public data sources |
 
 ---
 
-> All examples are being designed to reflect reusable, secure, and scalable API workflows that support voice service automation.
+## 🔁 Workflow Overview
+
+1. **Connect** to public health API(s) with Python/Postman  
+2. **Fetch & clean** data for key indicators (e.g., ER visits, suicide rates)  
+3. **Analyze** trends and summarize key changes  
+4. **Visualize** trends with Power BI or Jupyter Notebook  
+5. **[Optional]** Trigger weekly email/slack alert with summaries
+
+---
+
+## 📂 Project Structure
+
+```bash
+mental-health-insights/
+├── README.md
+├── data/
+│   ├── raw/
+│   └── cleaned/
+├── scripts/
+│   ├── fetch_data.py
+│   ├── summarize_trends.py
+│   └── alert_trigger.py
+├── postman/
+│   └── mass-public-health-api.postman_collection.json
+├── visuals/
+│   └── screenshots/
+├── dashboard/
+│   └── MA-MentalHealth.pbix
+
+
+
 
