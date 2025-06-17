@@ -14,14 +14,14 @@ This project explores the **rise of mental health challenges in the state of Mas
 
 ---
 
-## 🧰 Tools & Technologies
+## 💻 Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
 | `Python` | API data fetch, transformation, alert scripts |
 | `Postman` | API testing and endpoint documentation |
 | `Pandas` | Data cleaning and aggregation |
-| `Matplotlib` / `Seaborn` | Exploratory visualizations |
+| `Matplotlib / Seaborn` | Exploratory visualizations |
 | `Power BI` | Final interactive dashboard (optional) |
 | `Mass.gov`, `CDC`, `SAMHSA APIs` | Public data sources |
 
@@ -29,32 +29,15 @@ This project explores the **rise of mental health challenges in the state of Mas
 
 ## 🔁 Workflow Overview
 
-1. **Connect** to public health API(s) with Python/Postman  
-2. **Fetch & clean** data for key indicators (e.g., ER visits, suicide rates)  
-3. **Analyze** trends and summarize key changes  
-4. **Visualize** trends with Power BI or Jupyter Notebook  
-5. **[Optional]** Trigger weekly email/slack alert with summaries
+1. **Connect** to public health API(s) with Python or Postman  
+2. **Fetch & clean** mental health statistics (e.g., ER visits, suicide data)  
+3. **Analyze** and extract insights using Python  
+4. **Visualize** patterns with Jupyter Notebook or Power BI  
+5. **[Optional]** Trigger weekly digest alert (email, Slack, or report)
 
 ---
 
 ## 📂 Project Structure
-
-```bash
-mental-health-insights/
-├── README.md
-├── data/
-│   ├── raw/
-│   └── cleaned/
-├── scripts/
-│   ├── fetch_data.py
-│   ├── summarize_trends.py
-│   └── alert_trigger.py
-├── postman/
-│   └── mass-public-health-api.postman_collection.json
-├── visuals/
-│   └── screenshots/
-├── dashboard/
-│   └── MA-MentalHealth.pbix
 
 
 
