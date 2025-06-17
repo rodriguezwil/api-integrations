@@ -39,6 +39,57 @@ This project explores the **rise of mental health challenges in the state of Mas
 
 ## 📂 Project Structure
 
+mental-health-insights/
+├── README.md
+├── data/
+│ ├── raw/
+│ └── cleaned/
+├── scripts/
+│ ├── fetch_data.py
+│ ├── summarize_trends.py
+│ └── alert_trigger.py
+├── postman/
+│ └── mass-public-health-api.postman_collection.json
+├── visuals/
+│ └── screenshots/
+├── dashboard/
+│ └── MA-MentalHealth.pbix
+
+
+---
+
+## 📊 Sample Insights Tracked
+
+- Suicide rates by age group and Massachusetts county  
+- Behavioral health emergency room visits  
+- Depression diagnosis trends in youth (ages 12–17) and adults  
+- Therapy provider shortages and wait time averages  
+- Year-over-year trend comparison (2020–2024)
+
+---
+
+## 🌍 Why This Matters
+
+Mental health needs in Massachusetts — and across the U.S. — have spiked post-pandemic. Communities need tools that highlight vulnerable populations, overwhelmed systems, and where to allocate resources. This dashboard helps support that mission using data and automation.
+
+---
+
+## 🚀 Status
+
+- ✅ Project initialized
+- 🟡 Public API research and data pipeline in development
+- 🔜 Dashboard + alert automation under construction
+
+---
+
+## 📫 Contact
+
+**Created by:** Wilfredo Rodriguez  
+[LinkedIn](https://www.linkedin.com/in/wil-rodriguez) | [Email](mailto:wilrod38@gmail.com)
+
+> “Build with purpose. Lead with clarity. Secure and automate what matters.”
+
+
 
 
 
