@@ -22,7 +22,7 @@ This project explores the **rise of mental health challenges in the state of Mas
 | `Postman` | API testing and endpoint documentation |
 | `Pandas` | Data cleaning and aggregation |
 | `Matplotlib / Seaborn` | Exploratory visualizations |
-| `Power BI` | Final interactive dashboard (optional) |
+| `Power BI` | Final interactive dashboard |
 | `Mass.gov`, `CDC`, `SAMHSA APIs` | Public data sources |
 
 ---
